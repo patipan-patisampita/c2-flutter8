@@ -7,13 +7,14 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("เทคโนโลยีสารสนเทศ"),
+          title: Text(
+            "เทคโนโลยีสารสนเทศ",
+            style: TextStyle(fontFamily: "Sarabun",fontSize:23.0),
+          ),
           centerTitle: true,
           backgroundColor: Colors.purple[600],
         ),
-        body: Center(
-          child: Text("นักพัฒนาซอฟต์แวร์"),
-        ),
+        body: Image.asset("assets/images/thanos.png"),
         floatingActionButton: FloatingActionButton(
           child: Text("Click"),
           onPressed: () {
@@ -26,7 +27,7 @@ void main() {
             child: Center(
               child: Text(
                 "วิทยาลัยเทคนิคตราด",
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.white,fontFamily: "Sarabun",fontSize:20.0),
               ),
             ),
             height: 40.0,
